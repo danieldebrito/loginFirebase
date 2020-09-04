@@ -1,22 +1,20 @@
 {
-  "name": "login-firebase",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
+    "name": "login-firebase",
+    "version": "0.0.0",
+    "scripts": {
+        "ng": "ng",
         "start": "node server.js",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-	"postinstall": "ng build --output-path angularapp --aot --prod",
-    "e2e": "ng e2e"
+        "build": "ng build",
+        "test": "ng test",
+        "lint": "ng lint",
+        "postinstall": "ng build --output-path angularapp --aot --prod",
+        "e2e": "ng e2e"
     },
     "private": true,
     "engines": {
         "node": "v12.18.0",
         "npm": "6.11.3"
     },
-  "private": true,
-  
     "dependencies": {
         "@angular/animations": "^10.0.11",
         "@angular/common": "^10.0.11",
@@ -66,4 +64,3 @@
         "typescript": "~3.9.5"
     }
 }
-
