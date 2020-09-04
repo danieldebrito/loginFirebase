@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "loginFirebase"
+    }
+  },
+  "defaultProject": "loginFirebase",
+  "cli": {
+    "analytics": "3916ddad-2678-48a8-b493-a57eb3414338"
+  }
 }
